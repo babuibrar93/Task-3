@@ -1,0 +1,25 @@
+extends layout
+
+block content 
+    h1(class="add_Edit-heading") Add New Product
+    form(action="", method="post" id="form") 
+        .form-group 
+            label(for="productID") Product ID
+            input(type="number", class="form-control" id="productID" name="productID") 
+        .form-group 
+            label(for="prName") Product Name
+            input(type="text", class="form-control" id="prName"  name="prName") 
+        .form-group 
+            label(for="prCatagory") Product Catagory
+            input(type="text", class="form-control" id="prCatagory"  name="prCatagory") 
+        .form-group 
+            label(for="prPrice") Product Price
+            input(type="number", class="form-control" id="prPrice"  name="prPrice") 
+        .form-group 
+            label(for="prDetails") Product Details
+            input(type="text", class="form-control" id="prDetails"  name="prDetails") 
+        .form-group 
+            label(for="prImage") Product Image
+            input(type="text", class="form-control" id="prImage"  name="prImage") 
+        
+        input(type="submit", class="btn btn-success btn-submit")    

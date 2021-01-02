@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+
+.bg-nav {
+  background-color: brown;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.heading {
+  /* font-family: 'courgette', cursive; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}  
+.table, tr, th, td{
+  border: 3px solid brown;
+}
+.table {
+  margin-bottom: 25px;
+}
+
+.add_Edit-heading {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.btn-info {
+    margin-top: 20px; 
+}
+.add {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 30px;
+    border-color: black;
+}
+.add:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+.fa-plus-circle {
+  margin-top: 2px;
+  margin-right: 5px;
+  font-size: larger;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.edit {
+  margin-left: 20px;
+  
+}
+
+.delete_edit {
+  margin-top: 5px;
+  border-radius: 20px;
+  border-color: black;
+}
+
+.delete_edit:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+
+
+ /* Add/Edit Employee */ 
+
+ .btn-submit {
+   margin-bottom: 20px;
+   display: inline-block;
+ }
+.btn-submit:hover {
+   background-color: white;
+   color: black;
+ }
+ .form-group, label {
+   font-size: 16px;
+   /* font-weight: 100; */
+ }
+
